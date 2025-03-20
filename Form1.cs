@@ -93,7 +93,7 @@ namespace TrabalhoTabuada
         {
             if (e.KeyCode == Keys.Enter)
             {
-                btnCalcular.Focus();
+                btnCalcular.PerformClick();
                 e.Handled = true;
                 e.SuppressKeyPress = true;
             }

@@ -68,11 +68,12 @@
             // txtNumInicial
             // 
             this.txtNumInicial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(213)))), ((int)(((byte)(206)))));
+            this.txtNumInicial.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNumInicial.Font = new System.Drawing.Font("News706 BT", 10F, System.Drawing.FontStyle.Bold);
             this.txtNumInicial.ForeColor = System.Drawing.Color.IndianRed;
             this.txtNumInicial.Location = new System.Drawing.Point(13, 34);
             this.txtNumInicial.Name = "txtNumInicial";
-            this.txtNumInicial.Size = new System.Drawing.Size(100, 23);
+            this.txtNumInicial.Size = new System.Drawing.Size(100, 16);
             this.txtNumInicial.TabIndex = 2;
             this.txtNumInicial.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumInicial_KeyDown);
             this.txtNumInicial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumInicial_KeyPress);
@@ -80,11 +81,12 @@
             // txtNumFinal
             // 
             this.txtNumFinal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(213)))), ((int)(((byte)(206)))));
+            this.txtNumFinal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNumFinal.Font = new System.Drawing.Font("News706 BT", 10F, System.Drawing.FontStyle.Bold);
             this.txtNumFinal.ForeColor = System.Drawing.Color.IndianRed;
             this.txtNumFinal.Location = new System.Drawing.Point(131, 34);
             this.txtNumFinal.Name = "txtNumFinal";
-            this.txtNumFinal.Size = new System.Drawing.Size(100, 23);
+            this.txtNumFinal.Size = new System.Drawing.Size(100, 16);
             this.txtNumFinal.TabIndex = 3;
             this.txtNumFinal.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNumFinal_KeyDown);
             this.txtNumFinal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNumFinal_KeyPress);
@@ -109,7 +111,7 @@
             this.lblResultado.BackColor = System.Drawing.Color.Transparent;
             this.lblResultado.Font = new System.Drawing.Font("News701 BT", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.White;
-            this.lblResultado.Location = new System.Drawing.Point(12, 133);
+            this.lblResultado.Location = new System.Drawing.Point(8, 133);
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.Size = new System.Drawing.Size(116, 23);
             this.lblResultado.TabIndex = 5;
@@ -119,6 +121,8 @@
             // 
             this.btnCalcular.BackColor = System.Drawing.Color.LightCoral;
             this.btnCalcular.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcular.FlatAppearance.BorderSize = 0;
+            this.btnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCalcular.Font = new System.Drawing.Font("News701 BT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalcular.ForeColor = System.Drawing.Color.White;
             this.btnCalcular.Location = new System.Drawing.Point(244, 34);
@@ -134,6 +138,8 @@
             // 
             this.btnLimpar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(197)))), ((int)(((byte)(183)))));
             this.btnLimpar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpar.FlatAppearance.BorderSize = 0;
+            this.btnLimpar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpar.Font = new System.Drawing.Font("News701 BT", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpar.ForeColor = System.Drawing.Color.White;
             this.btnLimpar.Location = new System.Drawing.Point(244, 63);
